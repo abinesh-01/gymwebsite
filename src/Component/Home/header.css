@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    font-size: 10px;
+}
+.header .menu ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu ul a{
+    list-style: none;
+    color: white;
+    text-decoration: dotted;
+}
+.header .menu ul a:hover{
+    color: orangered;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.programs{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.programs .program-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.programs .program-header span{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.programs .program-header .text-stock{
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+.programs .four-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.programs .four-box .box{
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white; 
+    background-color: rgb(63, 62, 62);
+}
+.programs .four-box .box:hover{
+    background-color: orangered;
+    color: white;
+}
+.programs .four-box .box .icon{
+    font-size: 25px;
+}
+.programs .four-box .box .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.programs .four-box .box .detail{
+    line-height: 30px;
+}
+.programs .four-box .box .join-btn button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 20px 10px 0;
+}
+
+
+
+
+
+
+
+
